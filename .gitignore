@@ -1,0 +1,8 @@
+# .wordpress
+# backup
+.env
+Theme/index.css
+.wp
+.vscode
+wp-content
+!wp-content/.gitkeep
