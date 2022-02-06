@@ -7,7 +7,7 @@ on:
 jobs:
   Auto-Cerate-PR:
     runs-on: ubuntu-latest
-    if: ${{ github.repository == 'beeclover/wordpress-devspace' }}
+    if: ${{ github.repository == 'beeclover/projectname' }}
     steps:
       - name: Extract branch name
         shell: bash
