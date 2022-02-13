@@ -1,0 +1,16 @@
+{
+  "name": "@beeclover/prettier",
+  "version": "1.0.0",
+  "description": "beeclover prettier 환경설정",
+  "license": "ISC",
+  "main": "lib/prettier.js",
+  "publishConfig": {
+    "access": "public"
+  },
+  "scripts": {
+    "test": "echo \"Error: run tests from root\" && exit 1"
+  },
+  "bugs": {
+    "url": "https://github.com/beeclover/wordpress-devspace/issues"
+  }
+}

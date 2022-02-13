@@ -1,0 +1,16 @@
+{
+  "name": "@beeclover/eslint-config-typescript",
+  "version": "1.0.0",
+  "description": "beeclover eslint typescript 환경설정",
+  "license": "ISC",
+  "main": "index.js",
+  "publishConfig": {
+    "access": "public"
+  },
+  "scripts": {
+    "test": "echo \"Error: run tests from root\" && exit 1"
+  },
+  "bugs": {
+    "url": "https://github.com/beeclover/wordpress-devspace/issues"
+  }
+}
