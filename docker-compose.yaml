@@ -19,7 +19,7 @@ services:
     volumes:
       - wordpress:/var/www/html
       - ./wp-content:/var/www/html/wp-content
-      - ./src:/var/www/html/wp-content/themes/beeclover
+      - ./packages/theme:/var/www/html/wp-content/themes/beeclover
     labels:
       - traefik.enable=true
       ## HTTP Routers

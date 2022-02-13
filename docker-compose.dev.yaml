@@ -17,7 +17,7 @@ services:
     volumes:
       - wordpress:/var/www
       - ./wp-content:/var/www/html/wp-content
-      - ./src:/var/www/html/wp-content/themes/sage
+      - ./packages/theme:/var/www/html/wp-content/themes/beeclover
     deploy:
       placement:
         constraints:

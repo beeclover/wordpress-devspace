@@ -5,7 +5,7 @@ on:
   push:
     branches: [main]
     paths:
-      - "src/**/*"
+      - "packages/theme/**/*"
   workflow_dispatch:
 
 jobs:
