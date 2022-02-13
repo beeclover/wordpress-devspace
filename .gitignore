@@ -5,3 +5,6 @@ Theme/index.css
 .wp
 .vscode
 wp-content
+yarn-error.log
+node_modules
+lerna-debug.log

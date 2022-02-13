@@ -12,5 +12,11 @@
   },
   "bugs": {
     "url": "https://github.com/beeclover/wordpress-devspace/issues"
+  },
+  "dependencies": {
+    "prettier": "^2.5.1"
+  },
+  "devDependencies": {
+    "prettier": "^2.5.1"
   }
 }

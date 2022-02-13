@@ -1,11 +1,17 @@
 # `@beeclover/eslint-config-react`
 
-> TODO: description
+## setup
+
+- react::recommended
+- eslint::recommended
+- prettier
 
 ## Usage
 
 ```
-const eslintConfigReact = require('@beeclover/eslint-config-react');
-
-// TODO: DEMONSTRATE API
+module.exports = {
+  extends: [
+    "@beeclover/eslint-config-react",
+  ],
+};
 ```
