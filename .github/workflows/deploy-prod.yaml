@@ -5,7 +5,7 @@ on:
   push:
     branches: [main]
     paths:
-      - "packages/theme/**/*"
+      - "packages/wordpress/**/*"
   workflow_dispatch:
 
 jobs:
