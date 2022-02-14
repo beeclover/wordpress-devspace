@@ -14,9 +14,10 @@ module.exports = {
   ],
   overrides: [
     {
-      files: ["**/*.tsx", "**/*.ts", "**/*.jsx", "**/*.js"],
+      files: ["**/*.jsx", "**/*.js"],
       rules: {
         "react/prop-types": "off",
+        "react/react-in-jsx-scope": "off",
       },
     },
   ],
