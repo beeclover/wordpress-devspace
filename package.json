@@ -9,5 +9,6 @@
     "lint": "lerna run lint --parallel",
     "setup": "yarn install && yarn bootstrap",
     "start": "lerna run start --parallel"
-  }
+  },
+  "packageManager": "yarn@3.1.1"
 }
