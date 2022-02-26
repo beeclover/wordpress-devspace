@@ -28,7 +28,7 @@ use roots/sage
 docker run --rm --interactive --tty \
 --volume $PWD:/app \
 --volume ${COMPOSER_HOME:-$HOME/.composer}:/tmp \
-composer create-project roots/sage src dev-master
+composer create-project roots/sage {your-theme-name} dev-main
 ```
 
 ## 3. `docker-compose up -d`
